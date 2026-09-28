@@ -1,0 +1,18 @@
+# Compiled class file
+*.class
+
+# Eclipse specific files
+.metadata/
+.classpath
+.project
+.settings/
+Servers/
+
+# Maven/Gradle build folders (if you are using them)
+target/
+build/
+
+# Package Files
+*.jar
+*.war
+*.ear
