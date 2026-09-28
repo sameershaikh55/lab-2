@@ -33,7 +33,7 @@ public class AddBookAction implements ControllerAction {
 		
 		request.setAttribute("books", dao.getAllBooks());
 		
-		response.sendRedirect("viewbooks");
+// 		response.sendRedirect("viewbooks");
 		return ControllerAction.SUCCESS;
 
 	}

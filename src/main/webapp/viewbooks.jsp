@@ -25,7 +25,7 @@
 					<a href="updatebookform?isbn=${book.isbn}&authorid=${book.authorId}">update</a>
 				</td>
 				<td>
-					<a href="deletebookconfirm?isbn=${book.isbn}&authorid=${book.authorId}">delete</a>
+					<a href="deletebookconfirm?isbn=${book.isbn}&title=${book.title}">delete</a>
 				</td>
 			</tr>
 			</c:forEach>

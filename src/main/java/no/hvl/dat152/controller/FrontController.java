@@ -9,6 +9,7 @@ import no.hvl.dat152.action.AddAuthorAction;
 import no.hvl.dat152.action.AddAuthorFormAction;
 import no.hvl.dat152.action.AddBookAction;
 import no.hvl.dat152.action.ControllerAction;
+import no.hvl.dat152.action.DeleteBookAction;
 import no.hvl.dat152.action.UpdateBookAction;
 import no.hvl.dat152.action.UpdateBookFormAction;
 import no.hvl.dat152.action.ViewBookAction;
@@ -56,7 +57,7 @@ public class FrontController extends HttpServlet {
 		actions.put("addauthorform", new AddAuthorFormAction());	//TODO
 		actions.put("addauthor", new AddAuthorAction());			//TODO
 		actions.put("deletebookconfirm", new ViewBookAction());
-//		actions.put("deletebook", new DeleteBookAction());			//TODO
+		actions.put("deletebook", new DeleteBookAction());			//TODO
 	}
 	
 	/**
