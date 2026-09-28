@@ -5,6 +5,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import no.hvl.dat152.action.AddBookFormAction;
+import no.hvl.dat152.action.AddAuthorAction;
 import no.hvl.dat152.action.AddAuthorFormAction;
 import no.hvl.dat152.action.AddBookAction;
 import no.hvl.dat152.action.ControllerAction;
@@ -53,7 +54,7 @@ public class FrontController extends HttpServlet {
 		
 		// new features
 		actions.put("addauthorform", new AddAuthorFormAction());	//TODO
-//		actions.put("addauthor", new AddAuthorAction());			//TODO
+		actions.put("addauthor", new AddAuthorAction());			//TODO
 		actions.put("deletebookconfirm", new ViewBookAction());
 //		actions.put("deletebook", new DeleteBookAction());			//TODO
 	}
